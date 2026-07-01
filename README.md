@@ -19,42 +19,6 @@
 - 📈 Выгрузка отчетов в CSV
 
 ---
-
-## 🏗️ Структура проекта
-System/
-├── index.php
-├── components/
-│ ├── router.php
-│ ├── Db.php
-│ └── session.php
-├── config/
-│ ├── db_params.php
-│ └── routes.php
-├── controllers/
-│ ├── MainController.php
-│ └── UserController.php
-├── models/
-│ └── main.php
-├── views/
-│ ├── index/
-│ │ ├── index.php
-│ │ ├── orders.php
-│ │ ├── staff.php
-│ │ ├── storage.php
-│ │ └── storagelog.php
-│ └── user/
-│ └── login.php
-├── public/
-│ └── css/
-│ ├── bootstrap.min.css
-│ └── styles.css
-├── vendor/
-└── .idea/
-
-text
-
----
-
 ## 👨‍💻 Разработка
 
 Проект написан **без использования искусственного интеллекта**. Весь код создан вручную с нуля.
