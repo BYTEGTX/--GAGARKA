@@ -21,3 +21,32 @@
 ---
 
 ## 🏗️ Структура проекта
+kitchen-parser/
+├── index.php
+├── components/
+│ ├── router.php
+│ ├── Db.php
+│ └── session.php
+├── config/
+│ ├── db_params.php
+│ └── routes.php
+├── controllers/
+│ ├── MainController.php
+│ └── UserController.php
+├── models/
+│ └── main.php
+├── views/
+│ ├── index/
+│ │ ├── index.php
+│ │ ├── orders.php
+│ │ ├── staff.php
+│ │ ├── storage.php
+│ │ └── storagelog.php
+│ └── user/
+│ └── login.php
+├── public/
+│ └── css/
+│ ├── bootstrap.min.css
+│ └── styles.css
+├── vendor/
+└── .idea/
